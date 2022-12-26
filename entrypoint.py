@@ -5,7 +5,7 @@ from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
 
 
-length = 8
+length = 16
 chars = string.ascii_letters + string.digits
 random.seed = (os.urandom(1024))
 
